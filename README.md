@@ -1,18 +1,16 @@
 # Databricks Medallion Architecture – Acquisition Data Pipeline
 
-This project simulates a real-world data engineering scenario where a parent company (**AtliQon**) integrates data from an acquired company (**SportsBar**) into its centralized analytics platform using **Databricks Medallion Architecture**.
-
-The pipeline ingests operational datasets, standardizes schemas, performs data quality checks, and produces curated analytics tables that power downstream dashboards and business insights.
+End-to-end data engineering pipeline built on **Databricks** that simulates integrating data from an acquired company into an existing enterprise analytics platform using **Medallion Architecture and event-driven pipelines**.
 
 ---
 
 ## Business Use Case
 
-Following a corporate acquisition, the parent organization **AtliQon** must integrate operational data from the acquired company **SportsBar** into its existing analytics platform.
+Following a corporate acquisition, the parent organization **AtliQon** needed to integrate operational data from the acquired company **SportsBar** into its centralized analytics platform.
 
-Because the two organizations operate with different data structures and schemas, the incoming datasets must be standardized, validated, and aligned with the parent company's analytics model before being used for reporting.
+AtliQon already had an established **Gold analytics layer and reporting structure**. The objective of this project was to build the **data ingestion and transformation pipeline for the acquired company (SportsBar)** and standardize its datasets so they could be integrated with the parent company's existing analytics model.
 
-This project demonstrates how a **data engineering pipeline can standardize and integrate acquired company data into a unified analytics environment**.
+The pipeline processes SportsBar’s operational data using **Databricks Medallion Architecture (Bronze → Silver → Gold)**, performs data quality checks and schema standardization, and prepares the data for integration with AtliQon’s analytics environment.
 
 ---
 
