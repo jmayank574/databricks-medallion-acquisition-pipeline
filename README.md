@@ -136,15 +136,12 @@ Contains notebooks responsible for building fact tables and performing increment
 
 ### Databricks Workflow Orchestration
 
-(Add your Databricks Job / Workflow screenshot here)
-
-![Workflow](architecture/workflow.png)
+![alt text](image.png)
 
 ### Executive Analytics Dashboard
 
-(Add your dashboard screenshot here)
+![alt text](image-1.png)
 
-![Dashboard](architecture/dashboard.png)
 
 ---
 
